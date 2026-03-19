@@ -1,5 +1,4 @@
 # Unity Custom Camera Gizmo
-
 A simple Editor extension that replaces the default Unity Camera gizmo with a custom 3D mesh and adds a persistent frustum visualization.
 
 ## Features
@@ -8,9 +7,8 @@ Auto-Scaling: Uses `HandleUtility.GetHandleSize` so the gizmo remains readable r
 Persistent Frustum:** Draws the camera frustum even when the camera is not selected.
 
 ## Installation
-1. Create a folder named `Editor` in your Unity Project.
-2. Drop `CameraGizmoExtension.cs` and `CAMERA GIZMO.fbx` into that folder.
-3. The script will automatically find the mesh and apply it to all cameras in the scene.
+1. Import this project in your Unity Project.
+2. The script will automatically find the mesh and apply it to all cameras in the scene.
 
 ## Customization
 You can adjust the following static variables in the script:
