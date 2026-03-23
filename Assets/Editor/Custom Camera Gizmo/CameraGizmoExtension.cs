@@ -152,7 +152,7 @@ public class CameraGizmoOverlay : Overlay
     {
         if (SceneView.lastActiveSceneView != null)
         {
-            SceneView.lastActiveSceneView.cameraSettings.speedMin = 0.001f;
+            SceneView.lastActiveSceneView.cameraSettings.speedMin = 0.1f;
             SceneView.lastActiveSceneView.cameraSettings.speedMax = 10000.0f;
             SceneView.lastActiveSceneView.cameraSettings.speed = NewSpeed;
         }
